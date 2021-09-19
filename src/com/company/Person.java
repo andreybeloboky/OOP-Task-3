@@ -17,4 +17,12 @@ public class Person {
         this.firstName = firstName;
         this.lastName = lastName;
     }
+
+    public String say() {
+        return new String(firstName + " " + lastName + " age " + age + " said: " + say);
+    }
+
+    public String move() {
+        return new String(firstName + " " + lastName + " " + "move");
+    }
 }
